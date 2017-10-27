@@ -19,7 +19,7 @@ The service provider will automatically register itself.
 
 You must publish the config file with:
 ```bash
-php artisan vendor:publish --provider="BeauB\EasypostWebhooks\StripeWebhooksServiceProvider" --tag="config"
+php artisan vendor:publish --provider="BeauB\EasypostWebhooks\EasypostWebhooksServiceProvider" --tag="config"
 ```
 
 This is the contents of the config file that will be published at `config/easypost-webhooks.php`:
