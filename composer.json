@@ -18,7 +18,6 @@
             "email": "beau.buehler@utah.edu"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "BeauB\\EasypostWebhooks\\": "src"
