@@ -1,0 +1,45 @@
+{
+    "name": "beaub/laravel-easypost-webhooks",
+    "description": "Handle easypost webhooks in a Laravel application",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "~5.5.0",
+        "easypost/easypost-php": "^3.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.5",
+        "phpunit/phpunit": "^6.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "beaubuehler",
+            "email": "beau.buehler@utah.edu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "BeauB\\EasypostWebhooks\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BeauB\\EasypostWebhooks\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BeauB\\EasypostWebhooks\\EasypostWebhooksServiceProvider"
+            ]
+        }
+    }
+}
