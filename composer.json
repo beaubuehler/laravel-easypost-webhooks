@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": "^7.0",
-        "illuminate/support": "~5.5.0",
+        "illuminate/support": "^5.6.0",
         "easypost/easypost-php": "^3.3"
     },
     "require-dev": {
